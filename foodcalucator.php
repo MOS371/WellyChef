@@ -55,10 +55,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
           }
         }
 
-    
-  
-
-
   if (empty($_POST["pettype"])) {
     $typeErr = "pet type is required";
   } else {
